@@ -168,8 +168,8 @@ function showSlides(n) {
 		if (n > 3) {
 			slideIndex = 1;
 		}
-		if (n < 3) {
-			slideIndex = n;
+		if (n < 1) {
+			slideIndex = prop.length - 3;
 		}
 	}
 
